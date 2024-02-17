@@ -37,6 +37,18 @@
 		font-family: sans-serif;
 		color: #171A1B
 	}
+	.two-columns{
+		text-align: center;
+		font-size: 0;
+		/* removes extra white space between logos */
+	}
+	.two-columns .column{
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
 
 </style>
 </head>
@@ -49,11 +61,51 @@
 <!-- TOP BORDER -->
 		<tr>
 			<td height="8" style="background-color: #171A1B;">
-
 			</td>
 		</tr>
 
 <!-- LOGO SECTION -->
+		<tr>
+			<td>
+				<table width="100%">
+					
+					<tr>
+						<td class="two-columns">
+
+						<!-- diving logo and social icons in 2 cols -->
+							<table class="column">
+								<tr>
+									<td>
+										<a href="">
+											<img src="img/modern.jpg" alt="Modern Logo" width="180"></a>
+									</td>
+								</tr>
+
+							</table>
+
+							<table class="column">
+								<tr>
+									<td>
+										<a href="">
+											<img src="img/black-facebook.png" alt="" width="30"></a>
+										<a href="">
+											<img src="img/black-twitter.png" alt="" width="30"></a>
+										<a href="">
+											<img src="img/black-youtube.png" alt="" width="30"></a>
+										<a href="">
+											<img src="img/black-instagram.png" alt="" width="30"></a>
+												
+											
+											
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
 
 
 <!-- BANNER IMAGE -->
