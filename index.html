@@ -19,17 +19,39 @@
 	img {
 		border: 0;
 	}
+	.wrapper{
+		display:inline-block;
+		width: 100%;
+		/* responsive width @ 100% each screen size */
+		table-layout: fixed;
+		/* ensures table isnt wider than centre tag its inside of*/
+		background-color: #cccccc !important;
+		padding-bottom: 60px;
+	}
+	.main{
+		background-color: #ffffff;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 600px;
+		border-spacing: 0;
+		font-family: sans-serif;
+		color: #171A1B
+	}
 
 </style>
 </head>
 <body>
 
-
-
+	<centre class="wrapper">
+		<table class="main" width="100%">
 
 
 <!-- TOP BORDER -->
+		<tr>
+			<td height="8" style="background-color: #171A1B;">
 
+			</td>
+		</tr>
 
 <!-- LOGO SECTION -->
 
@@ -47,34 +69,36 @@
 
 
 <!-- FOOTER SECTION -->
+	
+		</table>
 
-
+	</centre>
 
 </body>
 </html>
 
-<div style="position:absolute;bottom: 0;width: 100%;text-align: center;line-height: 40px;font-size: 25px;">
+<!-- <div style="position:absolute;bottom: 0;width: 100%;text-align: center;line-height: 40px;font-size: 25px;">
 	<a href="https://responsivehtmlemail.com/html-email-course/" target="_blank" style="color: #404577;text-decoration: none;">www.ResponsiveHTMLEmail.com</a>
-</div>
+</div> -->
 
 
 
 
 
 <!-- Begin Social Share **you can remove this to center the template :) -->
-<style>
+<!-- <style>
 	.btn:hover {
 		color: white;
 		opacity: .8;
 		transform: scale(1.02);
 	}
-</style>
+</style> -->
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-sm btn-danger" style="position: absolute; right: 7px; bottom: 7px;transition: transform .3s ease;" data-toggle="modal" data-target="#socialModal">
+<!-- <button type="button" class="btn btn-sm btn-danger" style="position: absolute; right: 7px; bottom: 7px;transition: transform .3s ease;" data-toggle="modal" data-target="#socialModal">
   Subscribe!
-</button>
+</button> -->
 <!-- Modal -->
-<div class="modal fade" id="socialModal" style="font-family: 'Poppins', sans-serif;">
+<!-- <div class="modal fade" id="socialModal" style="font-family: 'Poppins', sans-serif;">
   <div class="modal-dialog modal-md" role="document">
     <div class="modal-content" style="background-color: rgba(255, 255, 255, .9)!important;border: 0;">
       <div class="modal-header" style="display: none;">
@@ -88,9 +112,9 @@
 						<div class="col-12">
 							<h2 class="pt-2 pb-4">Subscribe & turn on notifications! <i class="fas fa-bell"></i></h2>
 						</div>
-						<div class="col-lg-5 my-2">
+						<div class="col-lg-5 my-2"> -->
 							<!-- YOUTUBE CHANNEL -->
-							<a class="btn btn-lg" href="https://www.youtube.com/channel/UCZWoe3ezD_dZTZgQnDyBgFQ/?sub_confirmation=1" target="_blank" style="background-color: red;color: white;transition: transform .3s ease;"><i class="fab fa-youtube"></i> Subscribe
+							<!-- <a class="btn btn-lg" href="https://www.youtube.com/channel/UCZWoe3ezD_dZTZgQnDyBgFQ/?sub_confirmation=1" target="_blank" style="background-color: red;color: white;transition: transform .3s ease;"><i class="fab fa-youtube"></i> Subscribe
 							</a>
 						</div>
 						<div class="col-12">
@@ -101,7 +125,7 @@
 			</div>
     </div>
   </div>
-</div>
+</div> -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
